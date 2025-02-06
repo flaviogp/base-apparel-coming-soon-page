@@ -44,7 +44,7 @@ function App() {
   };
 
   return (
-    <div className="grid place-items-center bg-[url(/images/bg-pattern-desktop.svg)] md:grid-cols-3 md:max-h-[90%] max-w-[1440px] ">
+    <main className="grid place-items-center bg-[url(/images/bg-pattern-desktop.svg)] md:grid-cols-3 md:max-h-[90%] max-w-[1440px] ">
       {/* Logo  */}
       <div className="p-10 md:col-span-2 w-full max-w-[600px]">
         <img src={Logo} alt="Base Apparel" className="w-30 md:w-auto" />
@@ -91,7 +91,7 @@ function App() {
         </form>
         {showErrorMessage("email")}
       </div>
-    </div>
+    </main>
   );
 }
 
